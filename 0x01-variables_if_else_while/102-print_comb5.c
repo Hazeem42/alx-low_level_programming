@@ -2,7 +2,7 @@
 /**
  * main -main block
  * Description: Print all possible combinations of two 2 digit numbers.
- * Nubers should range from 0 to 99.
+ * Numbers should range from 0 to 99.
  * The two numbers should be seperated by a space.
  * All numbers should be printed with two digits. 1 should be printed as 01.
  * Combination of numbers must be seperated by a comma followed by a space.
@@ -11,7 +11,7 @@
  * You can only use 'putchar' to print to console.
  * You can only use 'putchar' up to 8 times.
  * You are not allowed to use any variable of type 'char'.
- * Return; 0
+ * Return: 0
  */
 int main(void)
 {
