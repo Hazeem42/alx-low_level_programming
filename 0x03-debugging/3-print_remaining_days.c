@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * Print_remaining_days - Takes a date and prints how many days are
@@ -8,23 +8,23 @@
  * @year: year
  * Return: void
  */
-void prin_remaining_days(int month, int days, int year)
+void print_remaining_days(int month, int day, int year)
+
 {
-	if((year % 4 == 0 || year % 400 == 0) && !(year % 100 == 0))
+	if ((year % 4 == 0 || year % 400 == 0) && !(year % 100 == 0))
 	{
 		if (month >= 2 && day >= 60)
 		{
 			day++;
 		}
-		
 		printf("Day of the year: %d\n", day);
-		Printf("Remaining days: %d\n", 366 - day);
+		printf("Remaining days: %d\n", 366 - day);
 	}
 	else
 	{
 		if (month == 2 && day == 60)
 		{
-			printf("invalid date: %02d/%02d/%04d\n", month, day - 31 year);
+			printf("invalid date: %02d/%02d/%04d\n", month, day - 31, year);
 		}
 		else
 		{
@@ -33,4 +33,3 @@ void prin_remaining_days(int month, int days, int year)
 		}
 	}
 }
-
