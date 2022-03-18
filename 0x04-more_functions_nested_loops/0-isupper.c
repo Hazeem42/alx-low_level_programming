@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _isupper - shows 1 ifinputis uppercase
- * character. Anooother case, shows 0
+ * _isupper - shows 1 if input is uppercase
+ * character. Another case, shows 0
  *
  * @c: The character in ASCII code
  *
@@ -11,7 +11,7 @@
  */
 int _isupper(int c)
 {
-	if (c >= 65 && c <= "90")
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
