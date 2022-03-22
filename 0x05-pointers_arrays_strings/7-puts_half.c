@@ -5,19 +5,30 @@
  * of a string, followed by a new line.
  * @str: string to be printed
  */
+
 void puts_half(char *str)
 {
-	int i, j;
-	
-	for (i = 0; str[i] != '\0'; i++)
+	int len, n, i;
+
+	len = 0;
+
+	while (str[len] != '\0')
 	{
+		len++;
 	}
-	j = i / 2;
-	if (i % 2 != 0)
-		j++;
-	for (; j < i; j++)
+
+	if (len % 2 == 0)
 	{
-			_putchar(str[j]);
+		for (i = len / 2; str[i] != '\0'; i++)
+		{
+			_putchar(str[i]);
+		}
+	} else if (len % 2)
+	{
+		for (n = (len - 1) / 2; n < len - 1; n++)
+		{
+			_putchar(str[n + 1]);
+		}
 	}
 	_putchar('\n');
 }
