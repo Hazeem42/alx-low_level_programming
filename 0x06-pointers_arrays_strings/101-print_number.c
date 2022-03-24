@@ -4,7 +4,7 @@
  * print_number - prints an integer;
  * @n: integer to be printed;
  */
-void print_numbers(int n)
+void print_number(int n)
 {
 	unsigned int n1;
 
@@ -21,6 +21,4 @@ void print_numbers(int n)
 		print_number(n1 / 10);
 
 	_putchar((n1 % 10) + '0');
-
-	return (0);
 }
