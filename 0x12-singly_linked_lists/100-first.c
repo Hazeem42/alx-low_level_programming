@@ -10,4 +10,6 @@ void first(void)
 {
 	printf("You're beat and yet, you must allow,\n");
 	printf("I bore my house upon myu back!\n");
+	printf("(A tortoise, having pretty good sense of a hare's nature, chalenges one to a race)");
 }
+	
