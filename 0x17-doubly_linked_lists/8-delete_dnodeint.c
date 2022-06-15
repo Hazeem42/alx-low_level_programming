@@ -15,7 +15,7 @@ size_t dlistint_len(const dlistint_t *h)
 
 	while (h)
 	{
-			node++;
+			nodes++;
 			h = h->next;
 	}
 
@@ -55,7 +55,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	}
 
 	temp->prev->next = temp->next;
-	if (remp->next)
+	if (temp->next)
 		temp->next->prev = temp->prev;
 	free(temp);
 
