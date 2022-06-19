@@ -1,0 +1,5 @@
+#!/bin/bash
+cp ../0x02-functions_nested_loops/3-islower.c
+cp ../0x02-functions_nested_loops/4-isalpha.c
+cp ../0x02-functions_nested_loops/6-abs.c
+cp ../0x02-functions_nested_loops/_putchar.c
